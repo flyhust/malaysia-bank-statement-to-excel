@@ -1,5 +1,7 @@
 # malaysia-bank-statement-to-excel
 
+<p align="center"><img src="docs/cover.jpg" width="320" alt="Malaysian bank statement to Excel, every row checked against the balance"></p>
+
 An agent skill that turns **Malaysian** bank statements (PDF, scanned or digital) into an Excel workbook in **your** template, and refuses to hand it over until every row is proven by the bank's own balance chain and printed totals.
 
 Supported (all Malaysia): Public Bank, Maybank, CIMB, RHB, Hong Leong, OCBC Malaysia, UOB Malaysia. Other banks work through the generic method, with less guidance.
@@ -47,6 +49,14 @@ The agent reads your template, transcribes, runs `scripts/verify.py`, fills with
 ## Contributing a bank
 
 Copy `references/banks/_generic.md`, answer its five questions for your bank, and open a PR. **Use fictional names, account numbers and amounts only** — never paste a real statement.
+
+## Learn to build tools like this
+
+This skill was built with Claude Code and Codex. If you want to build your own: a tool for the task you repeat every week, or an AI agent that takes care of it, I run a two-day, hands-on weekend workshop in Kuala Lumpur. No coding background needed.
+
+**万物皆可 Vibe Coding · AI Agent 线下班**: KL 周末两天实作课, 零基础可以。Day 1 做出你自己的工具, Day 2 搭你自己的 AI 助理。
+
+👉 **[workshopai.victoraaa.my](https://workshopai.victoraaa.my/)**
 
 ## License
 
