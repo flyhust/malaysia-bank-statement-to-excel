@@ -1,0 +1,36 @@
+[
+  {
+    "bank": "Public Bank",
+    "statement_date": "2025-01-31",
+    "period_start": "2025-01-01",
+    "period_end": "2025-01-31",
+    "holder_name": "CONTOH MAKMUR SDN BHD",
+    "holder_address": "12 JALAN CONTOH 1, 47300 PETALING JAYA",
+    "account_name": "Current Account",
+    "account_number": "3999000001",
+    "opening_balance": "5000.00",
+    "closing_balance": "6765.00",
+    "summary": { "debit_total": "1235.00", "debit_count": 4, "credit_total": "3000.00", "credit_count": 1 },
+    "rows": [
+      { "date": "2025-01-06", "raw": "DUITNOW TRSF CR 000417 ACME SUPPLIES SDN BHD INV 2051 20250106MBBEMYKL", "description": "INV 2051", "credit": "3000.00", "balance": "8000.00", "counterparty": "ACME SUPPLIES SDN BHD" },
+      { "date": "2025-01-06", "raw": "TSFR FUND DR-ATM/EFT 3237XXXXXX TAN AH KOW WORKER CLAIM", "description": "WORKER CLAIM", "debit": "1200.00", "balance": "6800.00", "counterparty": "TAN AH KOW", "handwritten": "INV-0091" },
+      { "date": "2025-01-31", "raw": "SC", "description": "Service charge", "debit": "35.00", "balance": "6765.00" },
+      { "date": "2025-01-31", "raw": "SST DR", "description": "SST on service charge", "debit": "0.00", "balance": "6765.00" },
+      { "date": "2025-01-31", "raw": "GST DR", "description": "GST on service charge", "debit": "0.00", "balance": "6765.00" }
+    ]
+  },
+  {
+    "bank": "Public Bank",
+    "statement_date": "2025-02-28",
+    "period_start": "2025-02-01",
+    "period_end": "2025-02-28",
+    "holder_name": "CONTOH MAKMUR SDN BHD",
+    "holder_address": "12 JALAN CONTOH 1, 47300 PETALING JAYA",
+    "account_name": "Current Account",
+    "account_number": "3999000001",
+    "opening_balance": "6765.00",
+    "closing_balance": "6765.00",
+    "summary": { "debit_total": "0.00", "debit_count": 0, "credit_total": "0.00", "credit_count": 0 },
+    "rows": []
+  }
+]
